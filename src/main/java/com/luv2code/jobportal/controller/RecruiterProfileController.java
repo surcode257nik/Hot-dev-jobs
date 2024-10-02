@@ -45,7 +45,7 @@ public class RecruiterProfileController {
                 model.addAttribute("profile",recruiterProfile.get());
             }
         }
-        return "/recruiter-profile";
+        return "recruiter-profile";
     }
 
     @PostMapping("/addNew")
